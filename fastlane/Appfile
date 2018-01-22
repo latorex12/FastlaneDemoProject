@@ -1,0 +1,4 @@
+app_identifier "com.skyrim.FastlaneDemo" # The bundle identifier of your app
+apple_id "496752819@qq.com" # Your Apple email address
+itc_team_id "118943917" # iTunes Connect Team ID
+team_id "E4BLV3BBQ2" # Developer Portal Team ID

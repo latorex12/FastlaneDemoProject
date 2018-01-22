@@ -1,0 +1,29 @@
+
+default_platform(:ios)
+
+platform :ios do
+
+  lane :catch do
+    snapshot
+  end
+
+  #it works!
+  lane :run_test do
+    run_tests(scheme: "FastlaneDemoTests")
+  end
+
+  lane :build do
+    # increment_build_number
+    increment_build_number_in_plist
+    get_certificates
+    get_provisioning_profile
+    scan(scheme: "FastlaneDemo")
+    gym(
+      clean: true,
+      scheme: "FastlaneDemo",
+      output_directory: "./build"
+    )
+    firim(firim_api_token: "2fd25e628f4f680a1aa17b0a3708656d")
+  end
+
+end
