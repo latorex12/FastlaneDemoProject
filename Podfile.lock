@@ -1,0 +1,24 @@
+PODS:
+  - MBProgressHUD (1.1.0)
+  - SKYWebView (1):
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - SKYWebView (from `https://github.com/latorex12/SKYWebView.git`)
+
+EXTERNAL SOURCES:
+  SKYWebView:
+    :git: https://github.com/latorex12/SKYWebView.git
+
+CHECKOUT OPTIONS:
+  SKYWebView:
+    :commit: bdc76fa6344b7e9a99daca49cdcf5bc3b17c0b07
+    :git: https://github.com/latorex12/SKYWebView.git
+
+SPEC CHECKSUMS:
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  SKYWebView: eaa5dac1e0e9edd79925fea551bbacf1836c073c
+
+PODFILE CHECKSUM: d9a938367339a50d6edc8bdafe4de20c2624508e
+
+COCOAPODS: 1.1.1
