@@ -1,7 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='FastlaneDemoTests.xctest' tests='2' failures='0'>
+<testsuites name='FastlaneDemoTests.xctest' tests='3' failures='0'>
+  <testsuite name='FastlaneDemoUITests.FastlaneDemoUITests' tests='1' failures='0'>
+    <testcase classname='FastlaneDemoUITests.FastlaneDemoUITests' name='testExample' time='5.668'/>
+  </testsuite>
   <testsuite name='FastlaneDemoTests.FastlaneDemoTests' tests='2' failures='0'>
     <testcase classname='FastlaneDemoTests.FastlaneDemoTests' name='testExample' time='0.001'/>
-    <testcase classname='FastlaneDemoTests.FastlaneDemoTests' name='testPerformanceExample' time='0.331'/>
+    <testcase classname='FastlaneDemoTests.FastlaneDemoTests' name='testPerformanceExample' time='0.305'/>
   </testsuite>
 </testsuites>

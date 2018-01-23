@@ -6,6 +6,7 @@
 
 ## Build generated
 build/
+cer/
 DerivedData/
 
 ## Various settings
@@ -54,6 +55,7 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/screenshots
+fastlane/test_output
 
 #Code Injection
 #

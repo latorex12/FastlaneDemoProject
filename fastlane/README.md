@@ -21,6 +21,11 @@ or alternatively using `brew cask install fastlane`
 fastlane ios catch
 ```
 
+### ios lint
+```
+fastlane ios lint
+```
+
 ### ios run_test
 ```
 fastlane ios run_test

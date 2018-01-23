@@ -24,7 +24,7 @@ GEM
     faraday_middleware (0.12.2)
       faraday (>= 0.7.4, < 1.0)
     fastimage (2.1.1)
-    fastlane (2.77.1)
+    fastlane (2.78.0)
       CFPropertyList (>= 2.3, < 3.0.0)
       addressable (>= 2.3, < 3.0.0)
       babosa (>= 1.0.2, < 2.0.0)
@@ -58,6 +58,13 @@ GEM
       xcodeproj (>= 1.5.2, < 2.0.0)
       xcpretty (>= 0.2.4, < 1.0.0)
       xcpretty-travis-formatter (>= 0.0.3)
+    fastlane-plugin-firim (0.1.0)
+      firim (~> 0)
+    fastlane-plugin-versioning (0.3.4)
+    firim (0.1.4)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.9)
+      fastlane (>= 2.1.0, < 3.0.0)
     gh_inspector (1.0.3)
     google-api-client (0.13.6)
       addressable (~> 2.5, >= 2.5.1)
@@ -138,6 +145,8 @@ PLATFORMS
 
 DEPENDENCIES
   fastlane
+  fastlane-plugin-firim
+  fastlane-plugin-versioning
 
 BUNDLED WITH
    1.16.1
