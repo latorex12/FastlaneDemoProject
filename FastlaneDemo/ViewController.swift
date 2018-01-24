@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBAction func clickPushWebButton() {
         let webVC = SKYWebViewController(withConfig: nil)
         navigationController?.pushViewController(webVC, animated: true)
-        webVC.loadRequestWithURL(url: URL.init(string: "www.baidu.com")!)
+        webVC.loadRequestWithURL(url: URL.init(string: "www.hao123.com")!)
     }
     
 
