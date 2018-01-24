@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   SKYWebView:
-    :commit: bdc76fa6344b7e9a99daca49cdcf5bc3b17c0b07
+    :commit: f8d7f59da318d0ac2515e507e964199561581ab6
     :git: https://github.com/latorex12/SKYWebView.git
 
 SPEC CHECKSUMS:
@@ -21,4 +21,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: d9a938367339a50d6edc8bdafe4de20c2624508e
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.1

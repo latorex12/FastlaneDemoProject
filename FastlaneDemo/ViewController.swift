@@ -13,11 +13,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.backgroundColor = UIColor.white
     }
 
     @IBAction func clickPushWebButton() {
-        
+        let webVC = SKYWebViewController(withConfig: nil)
+        navigationController?.pushViewController(webVC, animated: true)
+        webVC.loadRequestWithURL(url: URL.init(string: "www.baidu.com")!)
     }
     
 

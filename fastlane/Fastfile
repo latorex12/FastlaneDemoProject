@@ -38,7 +38,9 @@ platform :ios do
   end
 
   lane :build do
-    # increment_build_number
+    git_pull
+    cocoapods
+    
     increment_build_number_in_plist(
       scheme: 'FastlaneDemo'
     )
@@ -59,7 +61,7 @@ platform :ios do
       scheme: 'FastlaneDemo',
       output_directory: './build'
     )
-    # firim(firim_api_token: 'a8787d3513611ed7ee0ac0ed15f9f005')
+    firim(firim_api_token: 'a8787d3513611ed7ee0ac0ed15f9f005')
   end
 
 end
